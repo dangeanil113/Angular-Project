@@ -1,0 +1,20 @@
+<h3 class="text-primary">contact works!</h3>
+<form action="" method="POST">
+    <div class="form-group">
+        <label>Name</label>
+        <input class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label>Course</label>
+        <select class="form-control">
+            <option>--Select Course</option>
+            <option *ngFor="let course of courses">{{course}}</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Mobile No:</label>
+        <input class="form-control"/>
+    </div>
+    
+     <button class="btn btn-success">SUBMIT</button>
+</form>
