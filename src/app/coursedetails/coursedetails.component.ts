@@ -19,6 +19,9 @@ export class CoursedetailsComponent implements OnInit {
     this.cname=this.router.snapshot.paramMap.get("cname");
     this.trainer=this.router.snapshot.paramMap.get("trainer");
 
+
+    
+
   }
 
 }

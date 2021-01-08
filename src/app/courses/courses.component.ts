@@ -25,7 +25,10 @@ export class CoursesComponent implements OnInit {
     let trainer=course.trainer;
     this.router.navigate(["coursedetails",cid,cname,trainer])
   }
+ 
   ngOnInit(): void {
+    
   }
+
 
 }
