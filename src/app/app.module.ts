@@ -15,6 +15,7 @@ import { NodejsComponent } from './nodejs/nodejs.component';
 import { ExpressjsComponent } from './expressjs/expressjs.component';
 import { CoursedetailsComponent } from './coursedetails/coursedetails.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

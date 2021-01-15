@@ -13,6 +13,7 @@ export class CoursesComponent implements OnInit {
   courses=[
     {cid:1,cname:"java14",trainer:"Anil"},
     {cid:2,cname:"Spring",trainer:"Anil"},
+    
     {cid:3,cname:"Spring Boot",trainer:"Anil"},
     {cid:4,cname:"nodeJS",trainer:"Anil"},
     {cid:5,cname:"Express JS",trainer:"Anil"},
